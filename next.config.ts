@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [],
+  },
+  experimental: {
+    // mdxRs: true,  // Enable if using @next/mdx directly
+  },
 };
 
 export default nextConfig;
